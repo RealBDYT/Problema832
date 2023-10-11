@@ -1,0 +1,19 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+    short n;
+
+    cin>>n;
+
+    if (n < 5 ) {
+        cout<<"Corigent"<<endl;
+    } else {
+        cout<<"Promovat"<<endl;
+    }
+
+    return 0;
+}
